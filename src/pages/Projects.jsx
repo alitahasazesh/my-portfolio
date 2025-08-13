@@ -9,14 +9,14 @@ import { motion } from "framer-motion"
 
 const Projects = () => {
     return (
-        <div className="h-[100vh] flex items-center justify-center flex-col gap-15">
-            <motion.h1 initial={{ opacity: 0, translateY: "-30px" }} whileInView={{ opacity: 1, translateY: "0" }} transition={{
+        <div className="h-[100vh] max-md:h-fit flex items-center justify-center flex-col gap-15">
+            <motion.h1 initial={{ opacity: 0, translateY: "-30px" }} whileInView={{ opacity: 1, translateY: "0" }} viewport={{once: true}}   transition={{
                 duration: 1
             }} className="text-4xl realtive text-white font-inter font-bold text-center">Projects</motion.h1>
 
-            <motion.div initial={{ opacity: 0, translateY: "-30px" }} whileInView={{ opacity: 1, translateY: "0" }} transition={{
+            <motion.div initial={{ opacity: 0, translateY: "-30px" }} whileInView={{ opacity: 1, translateY: "0" }}  viewport={{once: true}}  transition={{
                 duration: 1
-            }} className="grid grid-cols-3 gap-15 mt-4">
+            }} className="grid grid-col-1 md:grid-cols-3 gap-15 mt-4 ">
                 {portfolio.map((p, index) => (
                     <div key={index} className="bg-[#7832f01f] rounded-[10px] relative overflow-hidden group cursor-pointer hover:scale-[1.01] transition-all duration-[0.5s] border border-white/10 ">
                         <div className="absolute top-3 right-2 z-100 flex items-center gap-1">

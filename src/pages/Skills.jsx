@@ -20,14 +20,15 @@ import { skills } from "../data";
 const Skills = () => {
     return (
         <div className="h-[100vh] flex items-center justify-center flex-col gap-15 relative overflow-hidden">
-            <motion.h1 initial={{ opacity: 0, translateY: "-30px" }} whileInView={{ opacity: 1, translateY: "0" }} transition={{
+            <motion.h1 initial={{ opacity: 0, translateY: "-30px" }} whileInView={{ opacity: 1, translateY: "0" }} viewport={{once: true}}  transition={{
                 duration: 1
             }} className="text-4xl realtive text-white font-inter font-bold text-center">Skills</motion.h1>
             <motion.div initial={{
                 opacity: 0, translateY: "-40px"
             }} whileInView={{
                 opacity: 1, translateY: "0"
-            }} transition={{
+            }} 
+            viewport={{once: true}}  transition={{
                 duration: 1
             }} className="max-w-[60%] w-[60%] mx-auto flex flex-wrap justify-center gap-3 text-white" >
                 {

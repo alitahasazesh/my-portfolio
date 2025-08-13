@@ -10,7 +10,7 @@ import Testimonials from './pages/Testimonials'
 function App() {
 
   return (
-    <div className='bg-[#060010] h-fit'>
+    <div className='bg-[#060010] h-fit overflow-x-hidden'>
       
         <Home />
       <Wrapper>

@@ -28,11 +28,11 @@ const Home = () => {
     };
     return (
         <div className="h-[100vh] flex tracking-tighter justify-center flex-col relative z-1">
-            <div style={{ width: '100%', height: '100%', position: 'absolute', inset: 0 }}>
+            {/* <div style={{ width: '100%', height: '100%', position: 'absolute', inset: 0 }}>
                 <DarkVeil speed={1.6} />
-            </div>
+            </div> */}
 
-            <motion.div initial={{ opacity: 0, translateY: "15px" }} animate={{ opacity: 1, translateY: "0" }} transition={{ duration: 1.5 }}>
+            <motion.div initial={{ opacity: 0, translateY: "15px" }} animate={{ opacity: 1, translateY: "0" }} viewport={{once: true}}  transition={{ duration: 1.5 }}>
                 <GradientText
                     colors={["#7832f0", "#8c51ef", "#d5d5d5", "#7832f0", "#8c51ef", "#d5d5d5"]}
                     animationSpeed={15}
@@ -95,6 +95,7 @@ const Home = () => {
                             duration: 1
                         }
                     }}
+                    viewport={{once: true}} 
                     src={VectorImg}
                     alt=""
                     className="max-sm:w-[300px] max-md:w-[430px] w-[550px] mx-auto drop-shadow-[0_0_10px_#500dc2]" />

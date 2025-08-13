@@ -12,10 +12,10 @@ const Contact = () => {
     return (
         <div className="h-[100vh] flex items-center justify-center flex-col gap-15 relative">
             <div className="z-100">
-                <motion.h1 initial={{ opacity: 0, translateY: "-30px" }} whileInView={{ opacity: 1, translateY: "0" }} transition={{
+                <motion.h1 initial={{ opacity: 0, translateY: "-30px" }} whileInView={{ opacity: 1, translateY: "0" }} viewport={{once: true}}  transition={{
                     duration: 1
                 }} className="text-4xl realtive text-white font-inter font-bold text-center mb-10">Contact Me</motion.h1>
-                <motion.form initial={{opacity: 0, translateY: "-20px"}} whileInView={{opacity: 1, translateY: "0"}} transition={{
+                <motion.form initial={{opacity: 0, translateY: "-20px"}} whileInView={{opacity: 1, translateY: "0"}} viewport={{once: true}}  transition={{
                     duration: 1
                 }} className="bg-[#05000d] w-[500px]  p-10 rounded-[10px] border border-[#9b67f42c] font-inter shadow-[0_0_10px_#16003b]">
                     <div className="flex flex-col gap-5">
@@ -56,8 +56,8 @@ const Contact = () => {
                         </button>
                     </div>
                 </motion.form>
-            </div>
-            <div className=" w-full h-full absolute top-0 left-0 z-1">
+            </div>  
+            {/* <div className=" w-full h-full absolute top-0 left-0 z-1">
                 <Beams
                     beamWidth={2}
                     beamHeight={15}
@@ -68,7 +68,7 @@ const Contact = () => {
                     scale={0.2}
                     rotation={45}
                 />
-            </div>
+            </div> */}
 
         </div>
     )
