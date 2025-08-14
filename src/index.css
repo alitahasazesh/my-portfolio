@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+@theme {
+  --font-inter: "Inter";
+  --font-playfair: "Playfair Display";
+  --font-arial: "Arial";
+
+  --color-red: #7228f0;
+
+
+  --animate-gradient: gradient 8s linear infinite;
+
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+.floating1 {
+  animation: floating1 3s linear infinite;
+}
+
+
+@keyframes floating1 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+@layer utilities {
+  .animate-gradient {
+    animation: gradient 5s linear infinite;
+  }
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px #7832F0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate(0);
+  } 
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
