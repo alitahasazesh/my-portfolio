@@ -10,11 +10,11 @@ import { motion } from "framer-motion"
 const Projects = () => {
     return (
         <div className="h-[100vh] max-md:h-fit flex items-center justify-center flex-col gap-15 max-sm:gap-5 max-sm:mt-10 w-[80%] mx-auto">
-            <h1 initial={{ opacity: 0, translateY: "-30px" }} whileInView={{ opacity: 1, translateY: "0" }} viewport={{once: true}}   transition={{
+            <motion.h1 initial={{ opacity: 0, translateY: "-30px" }} whileInView={{ opacity: 1, translateY: "0" }} viewport={{once: true}}   transition={{
                 duration: 1
-            }} className="text-4xl realtive text-white font-inter font-bold text-center">Projects</h1>
+            }} className="text-4xl realtive text-white font-inter font-bold text-center">Projects</motion.h1>
 
-            <div initial={{ opacity: 0, translateY: "-30px" }} whileInView={{ opacity: 1, translateY: "0" }}  viewport={{once: true}}  transition={{
+            <motion.div initial={{ opacity: 0, translateY: "-30px" }} whileInView={{ opacity: 1, translateY: "0" }}  viewport={{once: true}}  transition={{
                 duration: 1
             }} className="grid grid-col-1 md:grid-cols-3 gap-15 mt-4 ">
                 {portfolio.map((p, index) => (
@@ -43,7 +43,7 @@ const Projects = () => {
                         }}></div>
                     </div>
                 ))}
-            </div>
+            </motion.div>
         </div>
     )
 }
