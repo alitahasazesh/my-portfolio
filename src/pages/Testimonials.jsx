@@ -24,9 +24,14 @@ const Testimonials = () => {
 
             <Swiper
                 modules={[Navigation, Pagination]}
-                pagination={{ clickable: true }}
+                pagination={{ 
+                    clickable: true,
+                    bulletClass: 'swiper-pagination-bullet bg-gray-400',
+                    bulletActiveClass: 'swiper-pagination-bullet-active !bg-[#7832F0]' 
+                }}
                 spaceBetween={50}
                 slidesPerView={1}
+                loop={true}
                 onInit={(swiper) => {
                     swiper.params.navigation.prevEl = prevRef.current;
                     swiper.params.navigation.nextEl = nextRef.current;

@@ -28,7 +28,7 @@ const Projects = () => {
                             </button>
 
                         </div>
-                        <img src={p.image} alt="" className="group-hover:scale-[1.02] transition-all duration-[0.5s] brightness-90 h-[65%] w-full object-cover" />
+                        <img src={p.image} alt="" className="group-hover:scale-[1.02] transition-all duration-[0.5s] brightness-90 h-[350px] w-full object-cover" />
                         <div className="p-5">
                             <h1 className="text-white font-inter mt-4 mb-2 text-2xl font-semibold">{p.title}</h1>
                             <p className="text-[#c2c2c2] font-inter text-sm">{p.desc}</p>

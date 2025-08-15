@@ -55,7 +55,7 @@ export const portfolio = [
     {
         id: 1,
         image: EcommerceImg,
-        title: "",
+        title: "Ecommerce App",
         desc: "A Modern Fullstack Ecommerce website",
         techs: [
             "ReactJS",
