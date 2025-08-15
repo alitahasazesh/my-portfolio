@@ -72,3 +72,21 @@
 .animate-scroll {
   animation: scroll 20s linear infinite;
 }
+
+.gradient-shiny:before {
+  animation: shine 3s linear infinite;
+
+}
+
+
+@keyframes shine {
+  0% {
+    background-position: 200% 0;
+  }
+  33.33% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}

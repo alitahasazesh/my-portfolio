@@ -11,6 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://alitahasazesh.github.io/my-portfolio",
   "dependencies": {
     "@react-three/drei": "^10.6.1",
     "@react-three/fiber": "^9.3.0",
@@ -21,6 +22,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
+    "swiper": "^11.2.10",
     "tailwindcss": "^4.1.11",
     "three": "^0.179.1"
   },

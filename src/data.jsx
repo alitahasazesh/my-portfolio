@@ -160,15 +160,15 @@ export const testimonials = [
         img: img1,
         name: "Mohammad Salah",
         job: "Webdev YT Channel",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit. Qui aut non unde dolore aperiam rerum, voluptate consectetur? Quam fugit minima quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit. Qui aut non unde dolore aperiam rerum, voluptate consectetur? Quam fugit minima quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit. Qui aut non unde dolore aperiam rerum, voluptate consectetur? Quam fugit minima quibusdam?",
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit.",
         classNames: "col-start-1 col-end-3"
     },
-    {
+    {       
         id: 1,
         img: img2,
         name: "Emma Carter",
         job: "UI/UX Designer",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit. Qui aut non unde dolore aperiam rerum, voluptate consectetur? Quam fugit minima quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit. Qui aut non unde dolore aperiam rerum, voluptate consectetur? Quam fugit minima quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit. Qui aut non unde dolore aperiam rerum, voluptate consectetur? Quam fugit minima quibusdam?",
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit.",
         classNames: "col-start-3 col-end-4 row-start-1 row-end-3"
     },
      {
@@ -176,28 +176,28 @@ export const testimonials = [
         img: img3,
         name: "Sophia Bennett",
         job: "Customer",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit. Qui aut non unde dolore aperiam rerum, voluptate consectetur? Quam fugit minima quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt?",
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit.",
     },
      {
         id: 1,
         img: img4,
         name: "Gustav Ejri",
         job: "Worker",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit. Qui aut non unde dolore aperiam rerum, voluptate consectetur? Quam fugit minima quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam?",
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit.",
     },
      {
         id: 1,
         img: img5,
         name: "Deyunh Imochi",
         job: "Software Engineer",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit. Qui aut non unde dolore aperiam rerum, voluptate consectetur? Quam fugit minima quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam",
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit.",
     },
      {
         id: 1,
         img: img3,
         name: "Deyunh Imochi",
         job: "Software Engineer",
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit. Qui aut non unde dolore aperiam rerum, voluptate consectetur? Quam fugit minima quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit. Qui aut non unde dolore aperiam rerum, voluptate consectetur? Quam fugit minima quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam?",
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laboriosam, error obcaecati beatae quibusdam veritatis vitae adipisci architecto porro qui excepturi a, molestias quidem dolor natus suscipit.",
         classNames: "col-start-2 col-end-4"
     },
 ]

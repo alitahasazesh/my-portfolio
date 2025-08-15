@@ -13,8 +13,13 @@ import { motion } from "framer-motion";
 const About = () => {
     return (
         <div className="h-[100vh] relative pt-10 flex items-center justify-center">
-            <motion.p initial={{opacity: 0, translateY: "20px"}} whileInView={{opacity: 1, translateY: 0}} viewport={{once: true}}  transition={{duration: 2}} className="text-[#c2c2c2] text-2xl max-md:text-xl max-sm:text-sm    leading-10 max-w-[600px] mx-auto font-inter relative text-justify">
-                <span className="text-[150px] max-md:text-[120px] max-md:hidden  font-arial text-transparent text-stroke absolute top-5 -left-15 max-md:-left-13 floating1" >“</span> 
+            <div className="absolute -top-[20%] right-0 w-[600px] h-[600px] opacity-[0.2]" style={{ background: "radial-gradient(circle at center right, #7832F0, transparent, transparent)" }}>
+            </div>
+
+
+            <div className="absolute bottom-0 left-0 w-[600px] h-[600px] opacity-[0.2]" style={{ background: "radial-gradient(circle at center left, #7832F0, transparent, transparent)" }}></div>
+            <motion.p initial={{ opacity: 0, translateY: "20px" }} whileInView={{ opacity: 1, translateY: 0 }} viewport={{ once: true }} transition={{ duration: 2 }} className="text-[#c2c2c2] text-2xl max-md:text-xl max-sm:text-sm    leading-10 max-w-[600px] mx-auto font-inter relative text-justify w-[80%]">
+                <span className="text-[150px] max-md:text-[120px] max-md:hidden  font-arial text-transparent text-stroke absolute top-5 -left-15 max-md:-left-13 floating1" >“</span>
                 Hi. <br />
                 I'm a passionate Software Engineer specializing in full-stack web development with a focus on building modern, scalable, and responsive applications. With experience in JavaScript, React, Node.js, Express, and MongoDB, I enjoy transforming ideas into real-world products that are fast, functional, and user-friendly.
 

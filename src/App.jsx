@@ -13,10 +13,8 @@ function App() {
     <div className='bg-[#060010] h-fit overflow-x-hidden'>
       
         <Home />
-      <Wrapper>
         <About />
         <Projects />
-      </Wrapper>
         <Skills />
         <Testimonials />
         <Contact />
