@@ -35,10 +35,10 @@ const Testimonials = () => {
                 }}
                 className="text-white font-inter w-[50%] max-lg:w-[80%] h-[350px] relative"
             >
-                <button className="absolute top-[50%] -translate-y-[50%] left-0 z-100 before:content-[''] before:absolute before:-top-[150px] before:left-0 before:w-[300px] before:h-[350px] before:bg-[linear-gradient(90deg,#100000bd,transparent,transparent)] before:duration-500 before:opacity-0 hover:before:opacity-100 cursor-pointer max-xl:before:opacity-100 max-xl:before:bg-[linear-gradient(90deg,#10000070,transparent,transparent)]">
+                <button className="absolute top-[50%] -translate-y-[50%] left-0 z-100 before:content-[''] before:absolute before:-top-[150px] before:left-0 before:w-[300px] before:h-[350px] before:bg-[linear-gradient(90deg,#100000bd,transparent,transparent)] before:duration-500 before:opacity-0 hover:before:opacity-100 cursor-pointer ">
                     <IoMdArrowDropleft ref={prevRef} className="text-5xl text-[#7832F0]  drop-shadow-[0_0_10px_rgba(0,0,0,0.2)] " />
                 </button>
-                <button className="absolute top-[50%] -translate-y-[50%] right-0 z-100 before:content-[''] before:absolute before:-top-[150px] before:right-0 before:w-[300px] before:h-[350px] before:bg-[linear-gradient(270deg,#100000bd,transparent,transparent)] before:duration-500 before:opacity-0 hover:before:opacity-100 cursor-pointer max-xl:before:opacity-100 max-xl:before:bg-[linear-gradient(270deg,#10000070,transparent,transparent)]">
+                <button className="absolute top-[50%] -translate-y-[50%] right-0 z-100 before:content-[''] before:absolute before:-top-[150px] before:right-0 before:w-[300px] before:h-[350px] before:bg-[linear-gradient(270deg,#100000bd,transparent,transparent)] before:duration-500 before:opacity-0 hover:before:opacity-100 cursor-pointer ">
                     <IoMdArrowDropright ref={nextRef} className="text-5xl text-[#7832F0] drop-shadow-[0_0_10px_rgba(0,0,0,0.2)] " />
                 </button>
                 {testimonials.map((test, index) => (
