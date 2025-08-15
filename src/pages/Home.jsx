@@ -32,12 +32,20 @@ const Home = () => {
                 <DarkVeil speed={1.6} />
             </div> */}
 
-            <div className="absolute top-0 right-0 w-[500px] h-[500px] opacity-[0.5]" style={{background: "linear-gradient(45deg, transparent, transparent, #7832F0)"}}>
+            <div className="absolute top-0 right-0 w-[500px] h-[500px] opacity-[0.5]" style={{ background: "linear-gradient(45deg, transparent, transparent, #7832F0)" }}>
             </div>
-            <div className="absolute top-0 left-0 w-[500px] h-[500px] opacity-[0.5]" style={{background: "linear-gradient(-45deg, transparent, transparent, #7832F0)"}}>
+            <div className="absolute top-0 left-0 w-[500px] h-[500px] opacity-[0.5]" style={{ background: "linear-gradient(-45deg, transparent, transparent, #7832F0)" }}>
             </div>
 
-            <motion.div initial={{ opacity: 0, translateY: "15px" }} animate={{ opacity: 1, translateY: "0" }} viewport={{once: true}}  transition={{ duration: 1.5 }}>
+            <motion.div initial={{opacity: 0, translateY: "-20px"}} animate={{opacity: 1, translateY: "0"}} transition={{
+                duration: 2
+            }} className="absolute top-0 left-0 h-full w-full"  style={{ y }}>
+                <motion.img src={JavaScriptLogo} alt="" className=" max-md:hidden w-20   absolute xl:top-[25%]  xl:left-[14%] lg:top-[15%] lg:left-[10%] md:top-[15%] md:left-[10%]  drop-shadow-[0_0_15px_#efdb4e]" />
+                <motion.img src={ReactLogo} alt="" className=" max-md:hidden w-20  absolute xl:top-[20%]  xl:right-[18%]  lg:top-[10%] lg:right-[15%] md:top-[20%] md:right-[10%]   drop-shadow-[0_0_15px_#60dbfb]" />
+                <motion.img src={NodeJSLogo} alt="" className=" max-md:hidden w-20  absolute xl:top-[55%]  xl:left-[12%] lg:top-[60%] lg:left-[13%]  md:top-[60%] md:left-[10%]   drop-shadow-[0_0_15px_#83cd28]" />
+                <motion.img src={TailwindLogo} alt="" className=" max-md:hidden w-20 absolute lg:top-[60%] lg:right-[20%] md:top-[60%] md:right-[10%] drop-shadow-[0_0_15px_#38bdf9]" />
+            </motion.div>
+            <motion.div initial={{ opacity: 0, translateY: "15px" }} animate={{ opacity: 1, translateY: "0" }} viewport={{ once: true }} transition={{ duration: 1.5 }}>
                 <GradientText
                     colors={["#7832f0", "#8c51ef", "#d5d5d5", "#7832f0", "#8c51ef", "#d5d5d5"]}
                     animationSpeed={15}
@@ -48,18 +56,9 @@ const Home = () => {
                 </GradientText>
             </motion.div>
 
-            <motion.img style={{ y }} initial={{ opacity: 0 }} transition={{
-                duration: 1
-            }} animate={{ opacity: 1 }} src={JavaScriptLogo} alt="" className=" max-md:hidden w-20   absolute xl:top-[25%]  xl:left-[14%] lg:top-[15%] lg:left-[10%] md:top-[15%] md:left-[10%]  drop-shadow-[0_0_15px_#efdb4e]" />
-            <motion.img style={{ y }} initial={{ opacity: 0 }} transition={{
-                duration: 1.5
-            }} animate={{ opacity: 1 }} src={ReactLogo} alt="" className=" max-md:hidden w-20  absolute xl:top-[20%]  xl:right-[18%]  lg:top-[10%] lg:right-[15%] md:top-[20%] md:right-[10%]   drop-shadow-[0_0_15px_#60dbfb]" />
-            <motion.img style={{ y }} initial={{ opacity: 0 }} transition={{
-                duration: 1.5
-            }} animate={{ opacity: 1 }} src={NodeJSLogo} alt="" className=" max-md:hidden w-20  absolute xl:top-[55%]  xl:left-[12%] lg:top-[60%] lg:left-[13%]  md:top-[60%] md:left-[10%]   drop-shadow-[0_0_15px_#83cd28]" />
-            <motion.img style={{ y }} initial={{ opacity: 0 }} transition={{
-                duration: 1.5
-            }} animate={{ opacity: 1 }} src={TailwindLogo} alt="" className=" max-md:hidden w-20 absolute lg:top-[60%] lg:right-[20%] md:top-[60%] md:right-[10%] drop-shadow-[0_0_15px_#38bdf9]" />
+
+
+
             <div className="font-inter uppercase text-center font-bold  text-transparent bg-clip-text cursor-pointer" style={{
                 backgroundImage: "linear-gradient(273deg,rgba(217, 212, 212, 1) 0%, rgba(156, 121, 217, 1) 20%, #7832F0 50%, rgba(79, 13, 194, 1) 80%)"
             }}>
@@ -100,24 +99,24 @@ const Home = () => {
                             duration: 1
                         }
                     }}
-                    viewport={{once: true}} 
+                    viewport={{ once: true }}
                     src={VectorImg}
                     alt=""
                     className="max-sm:w-[300px] max-md:w-[430px] w-[550px] mx-auto drop-shadow-[0_0_10px_#500dc2]" />
-                   
+
             </div>
 
-             <p className="text-center text-[#c2c2c2] mt-10 font-inter tracking-wide max-w-[650px] max-sm:w-[340px] max-sm:text-sm mx-auto">
-                        Hey there I am Olivia Emma, A Software Engineer specializing in FullStack Web Development with latest technologies
-                    </p>
-                <motion.button
-                    initial={{ opacity: 0, translateY: "10px" }}
-                    animate={{
-                        opacity: 1, translateY: "0", transition: {
-                            duration: 1
-                        }
-                    }}
-                    className="mx-auto mt-10 inline-flex
+            <p className="text-center text-[#c2c2c2] mt-10 font-inter tracking-wide max-w-[650px] max-sm:w-[340px] max-sm:text-sm mx-auto">
+                Hey there I am Olivia Emma, A Software Engineer specializing in FullStack Web Development with latest technologies
+            </p>
+            <motion.button
+                initial={{ opacity: 0, translateY: "10px" }}
+                animate={{
+                    opacity: 1, translateY: "0", transition: {
+                        duration: 1
+                    }
+                }}
+                className="mx-auto mt-10 inline-flex
                 whitespace-nowrap 
                 rounded-full
                 w-[150px]
@@ -141,12 +140,12 @@ const Home = () => {
                 before:[transition:background-position_0s_ease]
                 shadow-[0_0_20px_rgba(79,13,194,1)]
                 hover:before:bg-[position:-100%_0,0_0] hover:before:duration-[1500ms] cursor-pointer hover:scale-[1.03] transition-all duration-500 items-center gap-2 gradient-shiny"
-                >
-                    See More
-                    <div className="bg-white rounded-full p-2 absolute top-[50%] translate-y-[-50%] right-[10px]">
-                        <MdKeyboardArrowRight className="text-1xl text-black" />
-                    </div>
-                </motion.button>
+            >
+                See More
+                <div className="bg-white rounded-full p-2 absolute top-[50%] translate-y-[-50%] right-[10px]">
+                    <MdKeyboardArrowRight className="text-1xl text-black" />
+                </div>
+            </motion.button>
 
             <div>
             </div>
