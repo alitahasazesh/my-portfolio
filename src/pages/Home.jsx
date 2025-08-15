@@ -28,9 +28,9 @@ const Home = () => {
     };
     return (
         <div className="h-[100vh] flex tracking-tighter justify-center flex-col relative z-1">
-            <div style={{ width: '100%', height: '100%', position: 'absolute', inset: 0 }}>
+            {/* <div style={{ width: '100%', height: '100%', position: 'absolute', inset: 0 }}>
                 <DarkVeil speed={1.6} />
-            </div>
+            </div> */}
 
             {/* <div className="absolute top-0 right-0 w-[500px] h-[500px] opacity-[0.5]" style={{ background: "linear-gradient(45deg, transparent, transparent, #7832F0)" }}>
             </div>

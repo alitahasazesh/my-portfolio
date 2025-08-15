@@ -55,7 +55,7 @@ const Contact = () => {
                         </button>
                     </div>
                 </form>
-            <div className=" w-full h-full absolute top-0 left-0 z-1">
+            {/* <div className=" w-full h-full absolute top-0 left-0 z-1">
                 <Beams
                     beamWidth={2}
                     beamHeight={15}
@@ -66,7 +66,7 @@ const Contact = () => {
                     scale={0.2}
                     rotation={45}
                 />
-            </div>
+            </div> */}
 
         </div>
     )
